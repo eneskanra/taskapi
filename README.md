@@ -11,7 +11,7 @@ git clone https://github.com/eneskanra/taskapi.git
 #### Konteynırları çalıştırın
 docker-compose up -d
 
-##### env dosyasında bulunan mongodb root bilgileri ile giriş yaparak uygulamanın çalışacağı veritabanı ve kullanıcıları oluşturun
+#### env dosyasında bulunan mongodb root bilgileri ile giriş yaparak uygulamanın çalışacağı veritabanı ve kullanıcıları oluşturun
 docker exec -it mongodb bash
 
 mongo -u mongodbuser -p your_mongodb_root_password
@@ -22,14 +22,14 @@ db.createUser({user: 'flaskuser', pwd: 'your_mongodb_password', roles: [{role: '
 
 exit
 
-##### Yeni kullanıcı ile giriş yaparak kullanıcıyı aktif edin
+#### Yeni kullanıcı ile giriş yaparak kullanıcıyı aktif edin
 mongo -u flaskuser -p your_mongodb_password --authenticationDatabase flaskdb
 
 exit
 
 exit
 
-##### Postman ile API'leri test etmeye başlayabilirsiniz. 
+#### Postman ile API'leri test etmeye başlayabilirsiniz. 
 #### Postman collection linki
 https://www.getpostman.com/collections/f4e4dee04420c01ef504
 
