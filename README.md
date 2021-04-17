@@ -9,6 +9,7 @@ Aşağıdaki komutları sırası ile çalıştırın.
 git clone https://github.com/eneskanra/taskapi.git
 
 #### Konteynırları çalıştırın
+cd taskapi
 docker-compose up -d
 
 #### env dosyasında bulunan mongodb root bilgileri ile giriş yaparak uygulamanın çalışacağı veritabanı ve kullanıcıları oluşturun
