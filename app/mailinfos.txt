@@ -1,0 +1,3 @@
+API key: 0085cb7c9e2b53692eac543d70a0c665-2af183ba-3334674b
+
+API base URL: https://api.mailgun.net/v3/sandboxcf653fb6b3fc454493239934b949c74b.mailgun.org

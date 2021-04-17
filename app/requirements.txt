@@ -1,0 +1,14 @@
+Flask
+Flask-JWT-Extended
+Flask-RESTful
+celery==4.3.0
+vine ==1.3.0
+mongoengine
+marshmallow
+marshmallow-mongoengine
+flask-marshmallow
+flask-mongoengine
+requests
+python-dotenv
+flask-uploads
+Werkzeug==0.16.0
